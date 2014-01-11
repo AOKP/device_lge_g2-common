@@ -229,7 +229,7 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         return status;
     }
 
-    /*
+    
     @Override
     protected DataCallResponse getDataCallResponse(Parcel p, int version) {
         DataCallResponse dataCall = new DataCallResponse();
@@ -287,7 +287,7 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         }
 
         return dataCall;
-    }*/
+    }
 
     @Override
     public void getNeighboringCids(Message response) {
@@ -668,7 +668,7 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         return response;
     }
 
-    /*
+    
     @Override
     public void
     setupDataCall(String radioTechnology, String profile, String apn,
@@ -693,5 +693,5 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
 
         super.setupDataCall(radioTechnology, profile, apn, user, password, 
                             authType, protocol, result);
-    }*/
+    }
 }
