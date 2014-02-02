@@ -183,6 +183,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnetcmdiface
 
+# msm_rng entropy feeder
+PRODUCT_PACKAGES += \
+    qrngd \
+    qrngp
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 
